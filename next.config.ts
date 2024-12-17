@@ -8,8 +8,18 @@ const nextConfig: NextConfig = withPWA({
 })({
   output: 'export',
   basePath: '/mecster09.github.io',
+  assetPrefix: '/mecster09.github.io/',
   images: {
     unoptimized: true,
+  },
+  trailingSlash: true,
+  rewrites: async () => {
+    return [
+      {
+        source: '/mecster09.github.io',
+        destination: '/',
+      },
+    ];
   }
 });
 
