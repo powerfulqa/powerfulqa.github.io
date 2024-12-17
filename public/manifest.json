@@ -2,7 +2,7 @@
   "name": "Mecster09 Web App",
   "short_name": "Mec09 App",
   "description": "Github Pages Web App",
-  "start_url": "/",
+  "start_url": "/mecster09.github.io",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
