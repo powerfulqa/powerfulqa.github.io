@@ -6,21 +6,7 @@ const nextConfig: NextConfig = withPWA({
   register: true,
   skipWaiting: true,
 })({
-  output: 'export',
-  basePath: '/mecster09.github.io',
-  assetPrefix: '/mecster09.github.io/',
-  images: {
-    unoptimized: true,
-  },
-  trailingSlash: true,
-  rewrites: async () => {
-    return [
-      {
-        source: '/mecster09.github.io',
-        destination: '/',
-      },
-    ];
-  }
+  /* config options here */
 });
 
 export default nextConfig;
