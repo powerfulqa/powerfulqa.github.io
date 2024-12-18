@@ -60,13 +60,22 @@ export default function Navigation() {
         </div>
       </nav>
 
+      {/* Mobile Theme Toggle (Always Visible) */}
+      <button
+        onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+        className="sm:hidden fixed top-4 right-4 z-50 p-3 rounded-full bg-background/80 backdrop-blur-sm border border-gray-200 dark:border-gray-800 shadow-lg"
+        aria-label="Toggle theme"
+      >
+        {theme === 'dark' ? '🌞' : '🌙'}
+      </button>
+
       {/* Mobile Navigation */}
       <nav
-        className={`sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-t border-gray-200 dark:border-gray-800 ${
+        className={`sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-sm border-t border-gray-200 dark:border-gray-800 ${
           isScrolled ? 'translate-y-0' : 'translate-y-full'
         } transition-transform duration-300`}
       >
-        <div className="grid grid-cols-5 items-center p-4">
+        <div className="grid grid-cols-4 items-center p-4">
           <div className="flex justify-center">
             <Image
               src="/icons/mecster09-512-sq-512.png"
@@ -84,13 +93,6 @@ export default function Navigation() {
               {item.label}
             </a>
           ))}
-          <button
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-            className="flex justify-center"
-            aria-label="Toggle theme"
-          >
-            {theme === 'dark' ? '🌞' : '🌙'}
-          </button>
         </div>
       </nav>
     </>
