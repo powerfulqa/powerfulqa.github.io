@@ -5,10 +5,10 @@ export default function Home() {
       <section className="container mx-auto px-4 py-12">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Welcome to My Portfolio
+            Gareth Phillips
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            Full-Stack Developer & Tech Enthusiast
+            Software Engineering Leader, AI Enthusiast, Tech Geek & Gamer
           </p>
           <div className="flex justify-center gap-4">
             <a
