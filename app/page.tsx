@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
@@ -59,7 +57,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Get In Touch</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            I'm always open to new opportunities and interesting projects.
+            I&apos;m always open to new opportunities and interesting projects.
           </p>
           <div className="flex justify-center gap-6">
             <a
