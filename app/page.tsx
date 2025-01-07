@@ -12,13 +12,14 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-4">
             <a
-              href="#projects"
+              href="https://github.com/mecster09"
+              target="_blank"
               className="bg-foreground text-background px-6 py-3 rounded-lg hover:opacity-90 transition-opacity"
             >
               View Projects
             </a>
             <a
-              href="#contact"
+              href="mailto:gkp2105@gmail.com"
               className="border border-foreground px-6 py-3 rounded-lg hover:bg-foreground hover:text-background transition-colors"
             >
               Contact Me
@@ -31,24 +32,50 @@ export default function Home() {
       <section id="projects" className="container mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold text-center mb-12">Featured Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[1, 2, 3].map((i) => (
-            <div
-              key={i}
-              className="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition-shadow"
+          <div className="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-semibold mb-4">Music Master</h3>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              A NextJS web application that enables users to sync playlists between Spotify and YouTube Music. 
+              Features OAuth login for both platforms and seamless playlist transfer functionality.
+            </p>
+            <a
+              href="https://github.com/mecster09/music-master"
+              target="_blank"
+              className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
             >
-              <h3 className="text-xl font-semibold mb-4">Project {i}</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Description of project {i}. This is a brief overview of what the
-                project does and the technologies used.
-              </p>
-              <a
-                href="#"
-                className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
-              >
-                Learn more →
-              </a>
-            </div>
-          ))}
+              Learn more →
+            </a>
+          </div>
+
+          <div className="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-semibold mb-4">Done-It</h3>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              A responsive NextJS progressive web application designed for efficient task management. 
+              Allows users to easily add and manage their tasks with a modern interface.
+            </p>
+            <a
+              href="https://github.com/mecster09/done-it"
+              target="_blank"
+              className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
+            >
+              Learn more →
+            </a>
+          </div>
+
+          <div className="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-semibold mb-4">Godot Game</h3>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              A top-down game created using Godot 4 engine. This project serves as a learning
+              experience for game development with the Godot engine.
+            </p>
+            <a
+              href="https://github.com/mecster09/godot-game"
+              target="_blank"
+              className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
+            >
+              Learn more →
+            </a>
+          </div>
         </div>
       </section>
 
@@ -61,7 +88,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/mecster09"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
@@ -69,7 +96,7 @@ export default function Home() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/gkphillips9"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
@@ -77,7 +104,7 @@ export default function Home() {
               LinkedIn
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:gkp2105@gmail.com"
               className="hover:opacity-80 transition-opacity"
             >
               Email
