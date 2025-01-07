@@ -22,8 +22,15 @@ export default function Navigation() {
 
   const navItems = [
     { href: '#', label: 'Home' },
-    { href: '#projects', label: 'Projects' },
-    { href: '#contact', label: 'Contact' },
+    { 
+      href: 'https://github.com/mecster09', 
+      label: 'Projects',
+      target: '_blank'
+    },
+    { 
+      href: 'mailto:gkp2105@gmail.com', 
+      label: 'Contact' 
+    },
   ];
 
   return (
@@ -45,6 +52,7 @@ export default function Navigation() {
             <a
               key={item.label}
               href={item.href}
+              target={item.target}
               className="hover:text-foreground/70 transition-colors"
             >
               {item.label}
@@ -88,6 +96,7 @@ export default function Navigation() {
             <a
               key={item.label}
               href={item.href}
+              target={item.target}
               className="flex flex-col items-center gap-1 text-sm"
             >
               {item.label}
