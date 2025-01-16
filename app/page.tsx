@@ -48,13 +48,13 @@ export default function Home() {
           </div>
 
           <div className="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-semibold mb-4">Done-It</h3>
+            <h3 className="text-xl font-semibold mb-4">Building Blocks</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               A responsive NextJS progressive web application designed for efficient task management. 
               Allows users to easily add and manage their tasks with a modern interface.
             </p>
             <a
-              href="https://github.com/mecster09/done-it"
+              href="https://github.com/mecster09/building-blocks"
               target="_blank"
               className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
             >
