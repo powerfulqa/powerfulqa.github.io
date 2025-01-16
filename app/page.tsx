@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="container mx-auto px-4 pt-2 pb-8">
+      <section className="container mx-auto px-4">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-3">
             Gareth Phillips
