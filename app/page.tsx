@@ -8,24 +8,20 @@ export default function Home() {
             Gareth Phillips
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-4">
-            Software Engineering Leader, AI Enthusiast, Tech Geek & Gamer
+            Tech Leader, AI Enthusiast, Tech Geek & Gamer
           </p>
-          <div className="max-w-3xl mx-auto space-y-3 mb-4 px-4">
-            <p className="text-sm text-gray-600 dark:text-gray-300">
-              With over 20 years of experience in software development and more than a decade in leadership, I specialise in guiding teams and organisations through growth, change, and complex challenges. My career has spanned startups, scale-ups, and large enterprises, equipping me with the insight to adapt strategies to different stages of business development while maintaining a focus on delivering impactful results.
-            </p>
-            <p className="text-sm text-gray-600 dark:text-gray-300">
-              I have a proven track record of shaping technical strategies that align with business objectives, building high-performing teams, and fostering a culture of open communication and collaboration. My leadership style is grounded in clarity, accountability, and empowering others to excel.
-            </p>
-            <p className="text-sm text-gray-600 dark:text-gray-300">
-              My experience spans a range of sectors, including Med-Tech, Finance, Security, Shipping, Commodities and Energy Trading, Education, Local Government, and Elite Sports Performance. This diverse background has honed my ability to deliver innovative, scalable, and commercially sound solutions across industries.
-            </p>
-          </div>
           <div className="flex justify-center gap-4">
+            <a
+              href="https://linkedin.com/in/gkphillips9"
+              target="_blank"
+              className="border border-foreground px-6 py-3 rounded-lg hover:bg-foreground hover:text-background transition-colors"
+            >
+              About Me
+            </a>
             <a
               href="https://github.com/mecster09"
               target="_blank"
-              className="bg-foreground text-background px-6 py-3 rounded-lg hover:opacity-90 transition-opacity"
+              className="border border-foreground px-6 py-3 rounded-lg hover:bg-foreground hover:text-background transition-colors"
             >
               View Projects
             </a>
