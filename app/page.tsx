@@ -12,7 +12,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-4">
             <a
-              href="https://linkedin.com/in/gkphillips9"
+              href="https://linkedin.com/in/gkphillips"
               target="_blank"
               className="border border-foreground px-6 py-3 rounded-lg hover:bg-foreground hover:text-background transition-colors"
             >
@@ -103,7 +103,7 @@ export default function Home() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/gkphillips9"
+              href="https://linkedin.com/in/gkphillips"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
