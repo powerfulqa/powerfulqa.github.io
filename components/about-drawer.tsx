@@ -39,13 +39,13 @@ export function AboutDrawer() {
           <div className="p-6">
             <div className="space-y-4">
               <p>
-                Hello! I'm a passionate tech leader and software engineer with expertise in building modern web applications and scalable systems.
+              I've spent my career turning complex problems into elegant software solutions, evolving from a hands-on engineer to a strategic leader. With deep experience across startups, scale-ups, and enterprise environments, I know how to navigate high-growth phases, steer teams through change, and cultivate a culture of accountability, innovation, and open communication.
               </p>
               <p>
-                With over X years of experience in the tech industry, I've worked with various technologies and frameworks, always staying at the forefront of innovation.
+              My expertise spans Med-Tech, Finance, Security, Shipping, Commodities & Energy Trading, Education, Local Government, and Elite Sports Performance—giving me a unique perspective on adapting technology to diverse industries.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or gaming.
+              When I’m not leading teams or solving technical challenges, I’m building games in Godot, crafting personal web apps, gaming on PC, or enjoying time with my wife and daughter.
               </p>
             </div>
           </div>
