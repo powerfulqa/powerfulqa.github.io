@@ -1,6 +1,9 @@
-import type { NextConfig } from "next";
-import withPWA from "next-pwa";
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 
+const withPWA = require('next-pwa');
+
+/** @type {import('next').NextConfig} */
 const nextConfig = withPWA({
   dest: "public",
   register: true,
