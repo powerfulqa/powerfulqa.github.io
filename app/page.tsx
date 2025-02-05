@@ -1,124 +1,58 @@
+import Link from "next/link"
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { FeaturedProjects } from "@/components/featured-projects"
+import { Mail } from "lucide-react"
+import { AboutDrawer } from "@/components/about-drawer"
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="container mx-auto px-4">
-        <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-3">
-            Gareth Phillips
-          </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-4">
-            Tech Leader, AI Enthusiast, Tech Geek & Gamer
-          </p>
-          <div className="flex justify-center gap-4">
-            <a
-              href="https://linkedin.com/in/gkphillips"
-              target="_blank"
-              className="border border-foreground px-6 py-3 rounded-lg hover:bg-foreground hover:text-background transition-colors"
-            >
-              About Me
-            </a>
-            <a
-              href="https://github.com/mecster09"
-              target="_blank"
-              className="border border-foreground px-6 py-3 rounded-lg hover:bg-foreground hover:text-background transition-colors"
-            >
-              View Projects
-            </a>
-            <a
-              href="mailto:gkp2105@gmail.com"
-              className="border border-foreground px-6 py-3 rounded-lg hover:bg-foreground hover:text-background transition-colors"
-            >
-              Contact Me
-            </a>
-          </div>
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl md:text-6xl font-bold text-center mb-4">Gareth Phillips</h1>
+      <p className="text-xl md:text-2xl text-center mb-8">Tech Leader, AI Enthusiast, Tech Geek & Gamer</p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+        <div className="block h-full group transition-transform hover:-translate-y-1">
+          <AboutDrawer />
         </div>
-      </section>
-
-      {/* Featured Projects */}
-      <section id="projects" className="container mx-auto px-4 pt-4 pb-8">
-        <h2 className="text-3xl font-bold text-center mb-8">Featured Projects</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-semibold mb-4">Music Master</h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              A NextJS web application that enables users to sync playlists between Spotify and YouTube Music. 
-              Features OAuth login for both platforms and seamless playlist transfer functionality.
-            </p>
-            <a
-              href="https://github.com/mecster09/music-master"
-              target="_blank"
-              className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
-            >
-              Learn more →
-            </a>
-          </div>
-
-          <div className="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-semibold mb-4">Building Blocks</h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              A responsive NextJS progressive web application designed for efficient task management. 
-              Allows users to easily add and manage their tasks with a modern interface.
-            </p>
-            <a
-              href="https://github.com/mecster09/building-blocks"
-              target="_blank"
-              className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
-            >
-              Learn more →
-            </a>
-          </div>
-
-          <div className="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-semibold mb-4">Godot Game</h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              A top-down game created using Godot 4 engine. This project serves as a learning
-              experience for game development with the Godot engine.
-            </p>
-            <a
-              href="https://github.com/mecster09/godot-game"
-              target="_blank"
-              className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
-            >
-              Learn more →
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="container mx-auto px-4 py-6">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-4">
-            I&apos;m always open to new opportunities and interesting projects.
-          </p>
-          <div className="flex justify-center gap-6">
-            <a
-              href="https://github.com/mecster09"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://linkedin.com/in/gkphillips"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="mailto:gkp2105@gmail.com"
-              className="hover:opacity-80 transition-opacity"
-            >
-              Email
-            </a>
-          </div>
-        </div>
-      </section>
+        <Link 
+          href="https://github.com/mecster09" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="block h-full group transition-transform hover:-translate-y-1"
+        >
+          <Card className="h-full hover:border-primary/50 transition-colors">
+            <CardHeader>
+              <CardTitle>My Github Projects</CardTitle>
+              <CardDescription className="text-muted-foreground">
+                Explore my open-source contributions and personal projects
+              </CardDescription>
+            </CardHeader>
+          </Card>
+        </Link>
+        <Link 
+          href="/career" 
+          className="block h-full group transition-transform hover:-translate-y-1"
+        >
+          <Card className="h-full hover:border-primary/50 transition-colors">
+            <CardHeader>
+              <CardTitle>Career History</CardTitle>
+              <CardDescription className="text-muted-foreground">
+                Discover my professional journey and experiences
+              </CardDescription>
+            </CardHeader>
+          </Card>
+        </Link>
+      </div>
+      <h2 className="text-3xl font-bold mb-6 px-4 mt-8">Featured Projects</h2>
+      <FeaturedProjects />   
+      <div className="flex justify-center mt-0">
+        <Link 
+          href="mailto:gkp2105@gmail.com" 
+          className="group p-8 rounded-full hover:bg-zinc-800/50 transition-colors"
+        >
+          <Mail className="w-16 h-16 text-zinc-400 group-hover:text-blue-400 transition-colors" />
+        </Link>
+      </div>
     </div>
-  );
+  )
 }
+
