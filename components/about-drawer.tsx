@@ -11,24 +11,26 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer"
 import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 
 export function AboutDrawer() {
   return (
     <Drawer>
       <DrawerTrigger asChild>
-        <Card className="h-full hover:border-primary/50 transition-colors">
-          <div className="p-6">
-            <h3 className="text-2xl font-semibold leading-none tracking-tight">About Me</h3>
-            <p className="text-sm text-muted-foreground p-0 pt-1">
-              Learn more about who I am and what I do
-            </p>
-          </div>
-        </Card>
+        <Button className="w-full h-full p-0" variant="ghost">
+          <Card className="w-full h-full hover:border-primary/50 transition-colors">
+            <CardHeader className="text-left">
+              <CardTitle>About Me</CardTitle>
+              <CardDescription>
+                Learn more about who I am and what I do
+              </CardDescription>
+            </CardHeader>
+          </Card>
+        </Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-2xl">
-          <DrawerHeader>
+          <DrawerHeader className="text-left">
             <DrawerTitle>About Me</DrawerTitle>
             <DrawerDescription>
               Tech Leader, AI Enthusiast, Tech Geek & Gamer
@@ -47,7 +49,7 @@ export function AboutDrawer() {
               </p>
             </div>
           </div>
-          <DrawerFooter>
+          <DrawerFooter className="sm:justify-start">
             <DrawerClose asChild>
               <Button variant="outline">Close</Button>
             </DrawerClose>
