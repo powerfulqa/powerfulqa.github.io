@@ -42,3 +42,13 @@ next-env.d.ts
 
 # cursor
 .cursorrules
+
+# Ignore generated workbox/service-worker build artifacts
+public/workbox*.js
+public/workbox*.js.map
+
+# Ignore generated service worker maps
+public/sw.js.map
+
+# Ignore exported site assets (out) and icons that are generated
+public/icons/
