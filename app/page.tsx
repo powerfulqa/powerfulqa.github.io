@@ -2,7 +2,6 @@ import Link from "next/link"
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { FeaturedProjects } from "@/components/featured-projects"
 import { GithubProjects } from "@/components/github-projects"
-import { Linkedin, Mail } from "lucide-react"
 import { AboutDrawer } from "@/components/about-drawer"
 
 export default function Home() {
@@ -47,22 +46,6 @@ export default function Home() {
   <FeaturedProjects />   
   <h2 className="text-3xl font-bold mb-6 px-4 mt-12">GitHub Projects</h2>
   <GithubProjects />
-      <div className="flex justify-center gap-6 mt-0">
-        <Link 
-          href="mailto:chris.haycock+iopage@gmail.com" 
-          className="group p-8 rounded-full hover:bg-zinc-800/50 transition-colors"
-        >
-          <Mail className="w-16 h-16 text-zinc-400 group-hover:text-blue-400 transition-colors" />
-        </Link>
-        <Link 
-          href="https://www.linkedin.com/in/christopherhaycock/" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group p-8 rounded-full hover:bg-zinc-800/50 transition-colors"
-        >
-          <Linkedin className="w-16 h-16 text-zinc-400 group-hover:text-blue-400 transition-colors" />
-        </Link>
-      </div>
     </div>
   )
 }

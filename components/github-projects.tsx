@@ -11,7 +11,7 @@ interface Project {
 const githubProjects: Project[] = [
   {
     title: "Aszune AI Bot",
-    description: "Experimenting with Azure Functions, OpenAI orchestration, and workflow automation to prototype an intelligent QA sidekick for hobby projects.",
+  description: "Experimenting with serverless functions, OpenAI orchestration, and workflow automation to prototype an intelligent QA sidekick for hobby projects.",
     link: "https://github.com/powerfulqa/aszune-ai-bot"
   },
   {
@@ -19,11 +19,6 @@ const githubProjects: Project[] = [
     description: "A personal sandbox exploring passive resource-gathering mechanics, telemetry loops, and automation patterns for game-inspired tooling.",
     link: "https://github.com/powerfulqa/Passive-Ramscoop"
   },
-  {
-    title: "QA Leadership Playbook",
-    description: "Living notes, templates, and proof-of-concept scripts that capture lessons from two decades in quality leadership.",
-    link: "https://github.com/powerfulqa"
-  }
 ]
 
 export function GithubProjects() {
