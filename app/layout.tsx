@@ -7,11 +7,16 @@ import '@/styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Gareth Phillips - Personal Website',
-  description: 'Tech Leader, AI Enthusiast, Tech Geek & Gamer',
+  title: 'Christopher Haycock - QA Leadership',
+  description: 'Head of Testing and Certified Agile Leader with 20+ years of quality engineering experience',
   manifest: '/manifest.json',
   themeColor: '#000000',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 }
 
 export default function RootLayout({

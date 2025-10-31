@@ -9,52 +9,64 @@ import { useState } from 'react'
 
 const careerEvents = [
   {
-    date: new Date('2024-06-01'),
-    company: "Thermofisher Scientific (CRG)",
-    role: "Director, Sofware Engineering",
-    summary: "Deliver the software engineering function spanning architecture, application development, platform, test and operations."
+    date: new Date('2023-08-01'),
+    company: "Pascal Audio",
+    role: "Head of Testing",
+    summary: "Own the global QA strategy for Pascal Audio's pro-audio portfolio, mentor a multidisciplinary test organisation, and provide risk visibility that protects rapid release cadences."
   },
   {
-    date: new Date('2020-05-01'),
-    company: "Genomics England",
-    role: "Director of Engineering & Operations",
-    summary: "Led a department of 105 professionals spanning Python, React, High-Performance Computing (HPC), networks, cloud platforms and DevSecOps. Directed software and platform development, quality assurance (QA), and delivery, encompassing junior to principal and manager levels."
+    date: new Date('2021-11-01'),
+    company: "EPOS",
+    role: "Software Test Team Manager",
+    summary: "Led embedded audio and video QA teams, managing onsite and remote test leads, scaling automation, and orchestrating release gates across multiple flagship product lines."
   },
   {
-    date: new Date('2019-10-01'),
-    company: "Clarksons Platou",
-    role: "Head of Engineering (Platforms)",
-    summary: "Retained accountability and responsibility for the product platform in both Azure and private cloud, covering all products globally operating 24/7 and led the cloud platform, infrastructure, and Site Reliability Engineering teams globally."
+    date: new Date('2018-07-01'),
+    company: "SYBO Games",
+    role: "Senior QA Manager",
+    summary: "Directed QA for Subway Surfers and Blades of Brim, hiring and mentoring test talent, rolling out automation practices, and aligning feature delivery with art, design, and external partners."
   },
   {
-    date: new Date('2018-06-01'),
-    company: "Brady Plc",
-    role: "Global Head of Engineering",
-    summary: "Guided global engineering and architecture leadership to a department of over 100 technical professionals spanning seven international locations and directed the technical delivery of products in six distinct programming languages and coordinated communication across two spoken languages."
+    date: new Date('2016-06-01'),
+    company: "Ex Libris",
+    role: "Senior QA",
+    summary: "Introduced mobile and tablet QA practices, created detailed manual and regression test suites, and championed best-practice testing rituals for enterprise education software."
   },
   {
-    date: new Date('2015-10-01'),
-    company: "Capita Software Solutions",
-    role: "Lead Solutions Architect",
-    summary: "Led the architecture and solutions team in the Local Government and the Education division and functioned as principal architect on technical designs for existing and new product solutions."
+    date: new Date('2015-09-01'),
+    company: "Castleton Software",
+    role: "Senior Software Tester",
+    summary: "Owned the test regime for new functionality, coordinated specification reviews, managed defect triage, and supported customer UAT for housing software products."
   },
   {
-    date: new Date('2014-10-01'),
-    company: "EDGE10(UK) Limited",
-    role: "Head of Engineering (Platforms)",
-    summary: "Owned all infrastructure projects as the principal cloud architect, overseeing coordination among the infrastructure teams in both Russia and the UK."
+    date: new Date('2014-06-01'),
+    company: "Digital Animal",
+    role: "QA Lead",
+    summary: "Set up QA operations for marketing tech products, rolled out security testing procedures, and implemented automation tooling that strengthened client delivery confidence."
   },
   {
-    date: new Date('2006-09-01'),
-    company: "Ranger Service Limited",
-    role: "Head of Software Engineering",
-    summary: "Started as an engineer before promotions through to Head of Software Engineering. In this role I supervised a cross-functional team of 35 in-house engineers and 60+ outsourced engineers, directing the full software lifecycle of core projects and ensuring on-time delivery, adherence to specifications, and elevated quality standards."
+    date: new Date('2011-09-01'),
+    company: "Inspired Gaming Group",
+    role: "Integration and QA Developer",
+    summary: "Ran the QA integration environment for gaming terminals, authored automated and manual test suites, and managed deployments at large-scale industry events."
   },
   {
-    date: new Date('1997-07-01'),
-    company: "Various Companies",
-    role: "Software Engineer / IT Consultant",
-    summary: "Began journey in engineering after leaving school, focusing on full stack development and IT support."
+    date: new Date('2009-11-01'),
+    company: "Ranger Services",
+    role: "Principal QA/Analyst",
+    summary: "Developed new QA procedures, cleared significant defect backlogs, and documented test artefacts that improved delivery quality across the organisation."
+  },
+  {
+    date: new Date('2004-11-01'),
+    company: "E.ON UK Energy",
+    role: "Support Test Analyst",
+    summary: "Tested large-scale energy systems, coordinated with 3rd parties, maintained documentation, and coached users on delivering compliant releases."
+  },
+  {
+    date: new Date('2001-09-01'),
+    company: "Metering Services",
+    role: "Junior Test Analyst",
+    summary: "Built foundational QA skills by designing manual test cases, analysing specifications, and supporting internal stakeholders through early testing cycles."
   }
 ]
 
@@ -102,10 +114,7 @@ export default function Career() {
         <Card className="mt-8">
           <CardContent className="p-6">
             <p className="text-muted-foreground leading-relaxed">
-              Welcome to my career timeline. This interactive journey showcases my professional 
-              progression from a Computer Science student to my current role as a Tech Leader. 
-              Each milestone represents a significant step in my career, with details about my 
-              roles and key achievements. Click on any milestone to explore more.
+              Welcome to my QA leadership timeline. Explore the journey from my first role as a Junior Test Analyst to leading global quality organisations for audio, gaming, and enterprise software companies. Click any milestone to see responsibilities and impact highlights.
             </p>
           </CardContent>
         </Card>

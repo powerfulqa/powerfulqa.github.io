@@ -8,30 +8,30 @@ interface Project {
   link: string
 }
 
-const projects: Project[] = [
+const githubProjects: Project[] = [
   {
-    title: "Pascal Audio QA Transformation",
-    description: "Driving the end-to-end test strategy for Pascal Audio's pro-audio platforms, building a resilient QA function, and providing portfolio-wide quality insights to leadership.",
-    link: "https://www.linkedin.com/in/christopherhaycock/"
+    title: "Aszune AI Bot",
+    description: "Experimenting with Azure Functions, OpenAI orchestration, and workflow automation to prototype an intelligent QA sidekick for hobby projects.",
+    link: "https://github.com/powerfulqa/aszune-ai-bot"
   },
   {
-    title: "EPOS Test Engineering Leadership",
-    description: "Scaled embedded audio and video QA squads, established automation guardrails, and orchestrated release governance across global teams.",
-    link: "https://www.linkedin.com/in/christopherhaycock/"
+    title: "Passive Ramscoop",
+    description: "A personal sandbox exploring passive resource-gathering mechanics, telemetry loops, and automation patterns for game-inspired tooling.",
+    link: "https://github.com/powerfulqa/Passive-Ramscoop"
   },
   {
-    title: "SYBO Games Quality Enablement",
-    description: "Introduced structured QA practices for Subway Surfers and Blades of Brim, mentoring testers and aligning delivery with art and design partners.",
-    link: "https://www.linkedin.com/in/christopherhaycock/"
+    title: "QA Leadership Playbook",
+    description: "Living notes, templates, and proof-of-concept scripts that capture lessons from two decades in quality leadership.",
+    link: "https://github.com/powerfulqa"
   }
 ]
 
-export function FeaturedProjects() {
+export function GithubProjects() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
-      {projects.map((project) => (
-        <Link 
-          key={project.title} 
+      {githubProjects.map((project) => (
+        <Link
+          key={project.title}
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"
@@ -46,7 +46,7 @@ export function FeaturedProjects() {
                 {project.description}
               </p>
               <div className="flex items-center text-primary text-sm">
-                Learn more 
+                View on GitHub
                 <ArrowRight className="h-4 w-4 ml-1 transition-transform group-hover:translate-x-1" />
               </div>
             </CardContent>
@@ -55,4 +55,4 @@ export function FeaturedProjects() {
       ))}
     </div>
   )
-} 
+}

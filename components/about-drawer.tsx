@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/drawer"
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import Link from "next/link"
 
 export function AboutDrawer() {
   return (
@@ -33,20 +34,55 @@ export function AboutDrawer() {
           <DrawerHeader className="text-left">
             <DrawerTitle>About Me</DrawerTitle>
             <DrawerDescription>
-              Tech Leader, AI Enthusiast, Tech Geek & Gamer
+              Head of Testing – Certified Agile Leader with 20+ years of quality engineering experience
             </DrawerDescription>
           </DrawerHeader>
           <div className="p-6">
             <div className="space-y-4">
               <p>
-              I've spent my career turning complex problems into elegant software solutions, evolving from a hands-on engineer to a strategic leader. With deep experience across startups, scale-ups, and enterprise environments, I know how to navigate high-growth phases, steer teams through change, and cultivate a culture of accountability, innovation, and open communication.
+                Certified Agile QA leader based in Copenhagen with over two decades of experience shaping test strategy, building high-performing QA teams, and steering quality initiatives across gaming, finance, audio hardware, and SaaS organisations.
               </p>
               <p>
-              My expertise spans Med-Tech, Finance, Security, Shipping, Commodities & Energy Trading, Education, Local Government, and Elite Sports Performance—giving me a unique perspective on adapting technology to diverse industries.
+                I focus on aligning quality engineering with business objectives, mentoring testers and leaders, and introducing modern tooling that boosts release confidence without slowing delivery. I am a UK expat living in Denmark and an active mentor within the QA community.
               </p>
-              <p>
-              When I’m not leading teams or solving technical challenges, I’m building games in Godot, crafting personal web apps, gaming on PC, or enjoying time with my wife and daughter.
+              <div className="grid gap-6 sm:grid-cols-2">
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Leadership & Strategic Focus</h3>
+                  <ul className="mt-2 space-y-1 text-sm text-muted-foreground list-disc list-inside">
+                    <li>Agile leadership & QA operating models</li>
+                    <li>Stakeholder engagement & communication</li>
+                    <li>Release governance and risk mitigation</li>
+                    <li>Resource planning across global teams</li>
+                    <li>Mentoring and coaching test leaders</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Technical & Testing Expertise</h3>
+                  <ul className="mt-2 space-y-1 text-sm text-muted-foreground list-disc list-inside">
+                    <li>System, web, mobile, and device testing</li>
+                    <li>Automation tooling (Zephyr, X-Ray, Jenkins)</li>
+                    <li>Defect analytics and quality reporting</li>
+                    <li>Test management across multiple squads</li>
+                    <li>Continuous improvement of QA processes</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Scrum Alliance Member #1448356 • HNC in Computing • NVQ in Using Technology Level 2
               </p>
+              <div className="flex flex-col gap-2 pt-2 text-sm">
+                <Link href="mailto:chris.haycock+iopage@gmail.com" className="text-primary hover:underline">
+                  chris.haycock+iopage@gmail.com
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/christopherhaycock/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  linkedin.com/in/christopherhaycock
+                </Link>
+              </div>
             </div>
           </div>
           <DrawerFooter className="sm:justify-start">
