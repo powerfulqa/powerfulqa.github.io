@@ -16,7 +16,7 @@ const projects: Project[] = [
   },
   {
     title: "EPOS Test Engineering Leadership",
-    description: "Scaled embedded audio and video QA squads, established automation guardrails, and orchestrated release governance across global teams.",
+    description: "Scaled embedded audio and video QA squads and orchestrated release governance across global teams.",
     link: "https://www.linkedin.com/in/christopherhaycock/"
   },
   {
