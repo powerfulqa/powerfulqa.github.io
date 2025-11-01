@@ -89,31 +89,66 @@ export default function CVPage() {
               <h4 className="font-semibold">Pascal Audio — Head of Testing</h4>
               <p className="text-sm text-muted-foreground">August 2023 — Present</p>
               <ul className="list-disc pl-5 mt-2 text-sm">
-                <li>Overall management and leadership responsibility for software testing.</li>
-                <li>Define test strategy and mentor the software team on testing best practices.</li>
-                <li>Increase testing visibility and manage testing risks across the portfolio.</li>
+                <li>Overall management and leadership responsibility for the testing of software.</li>
+                <li>Hands on: defining the test strategy, build test plans, and ensure coverage.</li>
+                <li>Mentor software team in testing best practices and uplift QA capability.</li>
+                <li>Identify and manage testing risks; ensure appropriate mitigation strategies.</li>
+                <li>Foster collaboration between stakeholders, developers and testers to improve delivery.</li>
               </ul>
 
               <h4 className="font-semibold mt-4">EPOS — Software Test Team Manager</h4>
               <p className="text-sm text-muted-foreground">Nov 2021 — July 2023</p>
               <ul className="list-disc pl-5 mt-2 text-sm">
-                <li>Line responsibility for on-site test leads and resource management.</li>
-                <li>Release Gate participant and mentor for in-house testers.</li>
+                <li>Line responsibility for on-site Test Leads and resource management for 19 testers.</li>
+                <li>Release Gate participant and executor; championed quality gates across releases.</li>
+                <li>Mentored and developed in-house testers and improved test practices.</li>
+                <li>Liaison for manual and automation testing strategies with product and engineering.</li>
+              </ul>
+
+              <h4 className="font-semibold mt-4">SYBO Games — Senior QA Manager</h4>
+              <p className="text-sm text-muted-foreground">July 2018 — Oct 2021</p>
+              <ul className="list-disc pl-5 mt-2 text-sm">
+                <li>QA for Subway Surfers and Blades of Brim; provided QA leadership for live services.</li>
+                <li>Mentor for testers, involved in hiring and building QA capability across teams.</li>
+                <li>Implemented QA processes and supported CI/CD release pipelines.</li>
+                <li>Collaborated with design and art partners to align quality goals with product vision.</li>
               </ul>
             </div>
 
             <div>
-              <h4 className="font-semibold">SYBO Games — Senior QA Manager</h4>
-              <p className="text-sm text-muted-foreground">July 2018 — Oct 2021</p>
-              <ul className="list-disc pl-5 mt-2 text-sm">
-                <li>QA for high-profile mobile titles; mentored and grew QA team members.</li>
-                <li>Implemented QA processes and supported release pipelines.</li>
-              </ul>
-
-              <h4 className="font-semibold mt-4">ExLibris — Senior QA</h4>
+              <h4 className="font-semibold">ExLibris — Senior QA</h4>
               <p className="text-sm text-muted-foreground">June 2016 — June 2018</p>
               <ul className="list-disc pl-5 mt-2 text-sm">
-                <li>Attendance monitoring, process improvements and mentoring graduates.</li>
+                <li>Attendance monitoring and QA process improvements across teams.</li>
+                <li>Helped mentor graduates and junior testers, improving onboarding and skills.</li>
+              </ul>
+
+              <h4 className="font-semibold mt-4">Digital Animal — Lead QA</h4>
+              <p className="text-sm text-muted-foreground">June 2014 — July 2015</p>
+              <ul className="list-disc pl-5 mt-2 text-sm">
+                <li>Led rollout of digital security procedures and set up testing processes.</li>
+                <li>Implemented automation testing software and best practices for test teams.</li>
+              </ul>
+
+              <h4 className="font-semibold mt-4">Inspired Gaming — Integration and QA Developer</h4>
+              <p className="text-sm text-muted-foreground">Sept 2011 — May 2014</p>
+              <ul className="list-disc pl-5 mt-2 text-sm">
+                <li>Integration and QA development; setup server room and gaming terminals for events.</li>
+                <li>Migrated VMs and wrote automated integration tests for the platform.</li>
+              </ul>
+
+              <h4 className="font-semibold mt-4">Ranger Services — Principal QA/Analyst</h4>
+              <p className="text-sm text-muted-foreground">Nov 2009 — March 2011</p>
+              <ul className="list-disc pl-5 mt-2 text-sm">
+                <li>Collaborated on strategies to improve QA and helped with Dev Team backlog grooming.</li>
+                <li>Led small automation/POC efforts and supported test analysts.</li>
+              </ul>
+
+              <h4 className="font-semibold mt-4">Earlier roles</h4>
+              <p className="text-sm text-muted-foreground">2001 — 2009</p>
+              <ul className="list-disc pl-5 mt-2 text-sm">
+                <li>Senior Tester / Principal Test Analyst roles across multiple organisations.</li>
+                <li>Responsibilities included test execution, mentoring, and customer UAT support.</li>
               </ul>
             </div>
           </div>
