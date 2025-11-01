@@ -9,6 +9,16 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8">
   <h1 className="text-4xl md:text-6xl font-bold text-center mb-4">Christopher Haycock</h1>
   <p className="text-xl md:text-2xl text-center mb-8">Head of Testing – Certified Agile Leader with 20+ years of quality engineering experience</p>
+      <div className="flex justify-center mb-6">
+        <a
+          href="/CV%20Website%20NOV%2025.pdf"
+          download
+          className="inline-block rounded-md px-4 py-2 text-sm transition-colors 
+            bg-zinc-900 text-white hover:opacity-90 dark:bg-white dark:text-black"
+        >
+          View CV
+        </a>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
         <div className="block h-full group transition-transform hover:-translate-y-1">
           <AboutDrawer />
