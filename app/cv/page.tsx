@@ -24,25 +24,15 @@ export default function CVPage() {
 
       <main className="prose prose-invert max-w-none">
         <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-3">About Me</h2>
+          <h2 className="text-xl font-semibold mb-3">Personal Summary</h2>
           <p>
-            I'm a dad living in Skovlunde with my fiance and our toddler. We're a multi-lingual
-            household and family life influences how I organise my time, solve problems, and
-            prioritise what matters outside of work.
-          </p>
-          <p>
-            Outside of work I enjoy gaming, small DIY projects and learning new coding
-            languages. Recently Ive been exploring AI and experimenting with small prototypes
-            in my spare time.
-          </p>
-
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-zinc-400 mt-4 mb-2">
-            Quick Background
-          </h3>
-          <p className="text-sm text-muted-foreground">
-            Experienced QA lead with a focus on practical quality engineering: mentoring teams,
-            improving test visibility and enabling delivery through pragmatic automation and
-            process change.
+            Certified Agile QA Leader with over 20 years of experience driving quality initiatives,
+            building high-performing QA teams, and developing end-to-end testing strategies across
+            industries including gaming, finance, and audio hardware. Proven track record of
+            enhancing product quality through strategic process improvements, mentoring, and
+            cross-functional collaboration with stakeholders. Highly skilled in aligning testing
+            processes with business goals, implementing cutting-edge testing methodologies, and
+            fostering a quality-driven culture to achieve consistent, reliable software releases.
           </p>
         </section>
 
