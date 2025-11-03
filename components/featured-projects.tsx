@@ -27,9 +27,14 @@ export function FeaturedProjects() {
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   {initiative.teaser}
                 </p>
-                <p className="text-sm font-medium text-foreground/80">
-                  {initiative.highlight}
-                </p>
+                <div className="text-sm text-foreground/80 space-y-2">
+                  <p className="font-medium">
+                    {initiative.highlight}
+                  </p>
+                  <p className="text-muted-foreground">
+                    {initiative.softImpact}
+                  </p>
+                </div>
               </div>
               <div className="mt-auto flex items-center text-primary text-sm font-semibold">
                 Read the story

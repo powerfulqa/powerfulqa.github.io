@@ -12,19 +12,19 @@ const careerEvents = [
     date: new Date('2023-08-01'),
     company: "Pascal Audio",
     role: "Head of Testing",
-    summary: "Own the global QA strategy for Pascal Audio's pro-audio portfolio, mentor a multidisciplinary test organisation, and provide risk visibility that protects rapid release cadences."
+    summary: "Own the global QA strategy for Pascal Audio's pro-audio portfolio, keep the team supported with open-door coaching, and provide risk visibility that protects rapid release cadences."
   },
   {
     date: new Date('2021-11-01'),
     company: "EPOS",
     role: "Software Test Team Manager",
-    summary: "Led embedded audio and video QA teams, managing onsite and remote test leads, scaling automation, and orchestrating release gates across multiple flagship product lines."
+    summary: "Led embedded audio and video QA teams, managing onsite and remote test leads, holding space for thoughtful decision-making, and orchestrating release gates across multiple flagship product lines."
   },
   {
     date: new Date('2018-07-01'),
     company: "SYBO Games",
     role: "Senior QA Manager",
-    summary: "Directed QA for Subway Surfers and Blades of Brim, hiring and mentoring test talent, rolling out automation practices, and aligning feature delivery with art, design, and external partners."
+    summary: "Directed QA for Subway Surfers and Blades of Brim, hiring and mentoring test talent, keeping cross-discipline teams aligned, and making sure every update landed with player empathy."
   },
   {
     date: new Date('2016-06-01'),
