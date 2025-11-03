@@ -40,17 +40,11 @@ export function AboutDrawer() {
           <div className="p-6">
             <div className="space-y-4 max-h-[60vh] overflow-auto">
               <p>
-                I'm a dad living in Skovlunde with my fiance and our toddler. We're a multi-lingual household and family life is a big part of what shapes my day-to-day.
+                I'm a father living in Skovlunde with my fiance and our toddler. We're a multi-lingual household, and the blend of languages and routines keeps home life lively and grounded.
               </p>
               <p>
-                Outside of work I love gaming, small DIY projects, and learning new coding languages. Recently I've been exploring AI and prototyping small tools in my spare time.
+                Away from releases and quality dashboards you'll find me gaming, tinkering with small DIY builds, or experimenting with new programming languages. Lately that's meant dabbling in AI side projects to see where the tech can take QA teams next.
               </p>
-
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Quick background</h3>
-              <p className="text-sm text-muted-foreground">
-                Experienced QA lead with a focus on practical quality engineering: mentoring teams, improving test visibility, and enabling delivery through pragmatic automation and process changes.
-              </p>
-
               <div className="flex flex-col gap-2 pt-2 text-sm">
                 <Link href="mailto:chris.haycock+iopage@gmail.com" className="text-primary hover:underline">
                   chris.haycock+iopage@gmail.com

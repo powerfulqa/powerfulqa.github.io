@@ -74,15 +74,12 @@ export function Timeline({ events, onMilestoneClick }: TimelineProps) {
           className="flex-1 overflow-x-auto relative scrollbar-hide"
           style={{ height: '80px' }}
         >
-          <div className="absolute w-full h-0.5 bg-gray-200 dark:bg-gray-700 top-1/2 -translate-y-1/2">
-            <div 
-              className="absolute h-full bg-blue-500 dark:bg-blue-400 transition-all duration-500"
+          <div className="relative flex items-center gap-12 sm:gap-24 min-w-max px-4" style={{ height: '80px' }}>
+            <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-0.5 bg-gray-200 dark:bg-gray-700" />
+            <div
+              className="absolute top-1/2 left-0 -translate-y-1/2 h-0.5 bg-blue-500 dark:bg-blue-400 transition-all duration-500"
               style={{ width: `${calculateProgress(new Date())}%` }}
             />
-          </div>
-          
-          <div className="flex gap-12 sm:gap-24 absolute top-0 left-0 w-full items-center px-4" 
-               style={{ height: '80px' }}>
             {sortedEvents.map((event, index) => (
               <button
                 key={index}
