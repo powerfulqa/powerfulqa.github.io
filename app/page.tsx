@@ -11,7 +11,7 @@ export default function Home() {
   <div className="space-y-3 mb-8">
     <p className="text-xl md:text-2xl text-center">Head of Testing – Certified Agile Leader with 20+ years of quality engineering experience</p>
     <p className="text-lg text-center text-muted-foreground">
-      I lead with clarity, empathy, and high availability—helping teams voice problems early, own their decisions, and grow while we ship.
+      I lead with clarity, empathy, and high availability, helping teams voice problems early, own their decisions, and grow while we ship.
     </p>
   </div>
       <div className="flex justify-center mb-6">
