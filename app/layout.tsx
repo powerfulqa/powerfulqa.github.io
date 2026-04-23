@@ -29,6 +29,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <script
+          data-goatcounter="https://powerfulqa.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+        />
       </head>
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <ThemeProvider
